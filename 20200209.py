@@ -1,14 +1,14 @@
 import math
 
-def quadratic(a, b, c):
+def q(a, b, c):
 
     if a==0:
 
-        print('分母不能为零')
+        x1=x2=-(c/b)
 
     elif b*b-4*a*c < 0:
 
-        print('无解')
+        x1=x2='wujie'
 
     else:
 
@@ -18,4 +18,4 @@ def quadratic(a, b, c):
 
         x2 = (-b-d)/(2*a)
 
-        return x1,x2
+	return x1,x2
